@@ -1,0 +1,9 @@
+idMisuraPrimaria,idAnimale,codiceIstat,siglaProvincia,codiceSpecieAIA,codiceRazzaAIA,giorno,mese,anno,IlvIndiceLongevita,AccuratezzaCalcoloIndice,TipoIndice,FrequenzaCalcolo,AnnoDiRiferimento,NumeroDiFiglie
+-9223372035897107807,-9223372036849440218,,,C4,11,1,2,2021,92.0,,Pedigree,Quadrimestrale,2021,
+-9223372035875240138,-9223372036849440218,,,C4,11,15,8,2021,92.0,,Pedigree,Quadrimestrale,2021,
+-9223372033181915754,-9223372036849440218,,,C4,11,15,8,2022,92.0,,Pedigree,Quadrimestrale,2022,
+-9223372032862262562,-9223372036849440218,,,C4,11,15,12,2022,92.0,,Pedigree,Quadrimestrale,2022,
+-9223372032289419089,-9223372036849440218,,,C4,11,15,4,2023,92.0,,Pedigree,Quadrimestrale,2023,
+-9223372031284710468,-9223372036849440218,,,C4,11,15,8,2023,91.0,,Pedigree,Quadrimestrale,2023,
+-9223372030914355404,-9223372036849440218,,,C4,11,15,12,2023,91.0,,Pedigree,Quadrimestrale,2023,
+-9223372030236389196,-9223372036849440218,,,C4,11,15,4,2024,91.0,,Pedigree,Quadrimestrale,2024,
