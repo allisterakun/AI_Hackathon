@@ -23,7 +23,8 @@ def load_and_filter_all_csvs_in_folder(folder: str, specie: str, breed: str) -> 
             print(folder, all_csv_files[j])
             continue
 
-        temp_df = temp_df[(temp_df["codiceSpecieAIA"] == specie) & (temp_df["codiceRazzaAIA"] == breed)]
+        temp_df['codiceRazzaAIA'] = temp_df['codiceRazzaAIA'].astype(str)
+        temp_df = temp_df[(temp_df["codiceSpecieAIA"] == specie) & (temp_df["codiceRazzaAIA"] == str(breed))]
 
         result = pd.concat([result, temp_df], ignore_index=True)
 
