@@ -1,3 +1,4 @@
 blinker<1.8.0
 selenium
 selenium-wire
+pandas

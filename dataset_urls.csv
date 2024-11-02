@@ -1,0 +1,88 @@
+dataset_name,dataset_url
+Urea,https://opendata.leo-italy.eu/portale/dataset-info/60dc47157acf64c61856a35f
+Rennet Coagulation time (R),https://opendata.leo-italy.eu/portale/dataset-info/60e304ef90de583803bb9557
+Time to curd firmness (K20),https://opendata.leo-italy.eu/portale/dataset-info/60e3053490de583803bb957f
+Time to curd firmness (A30),https://opendata.leo-italy.eu/portale/dataset-info/60e305d590de583803bb95dc
+Index of dairy attitude (IAC),https://opendata.leo-italy.eu/portale/dataset-info/60e3068690de583803bb963c
+β-hydroxybutyrate (BHBA),https://opendata.leo-italy.eu/portale/dataset-info/60e3074190de583803bb96b1
+Acetone,https://opendata.leo-italy.eu/portale/dataset-info/60e311f590de583803bb9c3e
+Saturated Fatty acid (SFA),https://opendata.leo-italy.eu/portale/dataset-info/60e3123a90de583803bb9c65
+Total unsaturated Fatty Acid (UFA),https://opendata.leo-italy.eu/portale/dataset-info/60e3126e90de583803bb9c83
+Electrical conductivity,https://opendata.leo-italy.eu/portale/dataset-info/60e312ab90de583803bb9ca6
+Newly synthesised fatty acids,https://opendata.leo-italy.eu/portale/dataset-info/60e312e690de583803bb9cc8
+Mixed Fatty Acids,https://opendata.leo-italy.eu/portale/dataset-info/60e3131d90de583803bb9ce9
+Preformed Fatty Acids,https://opendata.leo-italy.eu/portale/dataset-info/60e3135190de583803bb9d08
+PH,https://opendata.leo-italy.eu/portale/dataset-info/60e313ce90de583803bb9d4b
+Stearic Acid (C18:0),https://opendata.leo-italy.eu/portale/dataset-info/60e3140390de583803bb9d6a
+Vaccenic acid (C18:1),https://opendata.leo-italy.eu/portale/dataset-info/60e3144090de583803bb9d8c
+Freezing Point,https://opendata.leo-italy.eu/portale/dataset-info/60e3148790de583803bb9db2
+Casein,https://opendata.leo-italy.eu/portale/dataset-info/60e314fa90de583803bb9df4
+Lactose,https://opendata.leo-italy.eu/portale/dataset-info/60e3152b90de583803bb9e12
+Dry Period,https://opendata.leo-italy.eu/portale/dataset-info/61ddb9538e6e3b04221f020f
+Urea,https://opendata.leo-italy.eu/portale/dataset-info/61dd94988e6e3b04221ee090
+β-hydroxybutyrate (BHBA),https://opendata.leo-italy.eu/portale/dataset-info/61def4258e6e3b04221f5b33
+Casein,https://opendata.leo-italy.eu/portale/dataset-info/61def4328e6e3b04221f5b3b
+Lactose,https://opendata.leo-italy.eu/portale/dataset-info/61def43f8e6e3b04221f5b45
+Saturated Fatty acid (SFA),https://opendata.leo-italy.eu/portale/dataset-info/61def45a8e6e3b04221f5b54
+Total unsaturated Fatty Acid (UFA),https://opendata.leo-italy.eu/portale/dataset-info/61def4678e6e3b04221f5b5a
+Rennet Coagulation time (R),https://opendata.leo-italy.eu/portale/dataset-info/61def4758e6e3b04221f5b63
+Time to curd firmness (K20),https://opendata.leo-italy.eu/portale/dataset-info/61def4838e6e3b04221f5b6d
+Time to curd firmness (A30),https://opendata.leo-italy.eu/portale/dataset-info/61def4918e6e3b04221f5b74
+Index of dairy attitude (IAC),https://opendata.leo-italy.eu/portale/dataset-info/61def49e8e6e3b04221f5b7c
+Electrical conductivity,https://opendata.leo-italy.eu/portale/dataset-info/61def4ac8e6e3b04221f5b84
+Freezing Point,https://opendata.leo-italy.eu/portale/dataset-info/61def4c78e6e3b04221f5b95
+Stearic Acid (C18:0),https://opendata.leo-italy.eu/portale/dataset-info/61def4d48e6e3b04221f5b9b
+Vaccenic acid (C18:1),https://opendata.leo-italy.eu/portale/dataset-info/61def4e28e6e3b04221f5ba2
+PH,https://opendata.leo-italy.eu/portale/dataset-info/61def4fd8e6e3b04221f5bb4
+Newly synthesised fatty acids,https://opendata.leo-italy.eu/portale/dataset-info/61def50a8e6e3b04221f5bbb
+Mixed Fatty Acids,https://opendata.leo-italy.eu/portale/dataset-info/61def5178e6e3b04221f5bc4
+Preformed Fatty Acids,https://opendata.leo-italy.eu/portale/dataset-info/61def5258e6e3b04221f5bcc
+Abortion,https://opendata.leo-italy.eu/portale/dataset-info/61e096e18e6e3b04221fd600
+Culling,https://opendata.leo-italy.eu/portale/dataset-info/61e09d5c8e6e3b04221fda4d
+Unique Identification,https://opendata.leo-italy.eu/portale/dataset-info/61e09f368e6e3b04221fdb95
+Pregnancy Diagnosis,https://opendata.leo-italy.eu/portale/dataset-info/61e0a1bc8e6e3b04221fdd3b
+Calving,https://opendata.leo-italy.eu/portale/dataset-info/61e0a4378e6e3b04221fdeba
+Insemination,https://opendata.leo-italy.eu/portale/dataset-info/61e0a7d08e6e3b04221fe0cc
+Milk IBR analysis,https://opendata.leo-italy.eu/portale/dataset-info/622f6a6d8e6e3b042230e0cd
+DISCC analysis,https://opendata.leo-italy.eu/portale/dataset-info/622f5e728e6e3b042230d97c
+Progesterone Milk Analysis,https://opendata.leo-italy.eu/portale/dataset-info/622f6a1b8e6e3b042230e0a1
+Slaughter,https://opendata.leo-italy.eu/portale/dataset-info/61deaaeb8e6e3b04221f4367
+Birth,https://opendata.leo-italy.eu/portale/dataset-info/622886ab8e6e3b04222eefd5
+Daily Weather Recording,https://opendata.leo-italy.eu/portale/dataset-info/6245b6ee8e6e3b042235c122
+Average conductivity,https://opendata.leo-italy.eu/portale/dataset-info/6273ac9b8e6e3b04223fa55d
+Daily milking,https://opendata.leo-italy.eu/portale/dataset-info/6273c2e38e6e3b04223faca4
+Animal registry,https://opendata.leo-italy.eu/portale/dataset-info/61e146298e6e3b0422200495
+Somatic Cells Index,https://opendata.leo-italy.eu/portale/dataset-info/62c43371b08b7438c5e24abd
+Days Open Index,https://opendata.leo-italy.eu/portale/dataset-info/62c43371b08b7438c5e24abe
+Index Longevity,https://opendata.leo-italy.eu/portale/dataset-info/62c43371b08b7438c5e24abf
+Index Persistence Lactation,https://opendata.leo-italy.eu/portale/dataset-info/62c43371b08b7438c5e24ac2
+Citric Acid,https://opendata.leo-italy.eu/portale/dataset-info/633a9f1319448df464e38a76
+Fat,https://opendata.leo-italy.eu/portale/dataset-info/633a9f1319448df464e38a77
+Protein,https://opendata.leo-italy.eu/portale/dataset-info/633a9f1419448df464e38a78
+Somatic Cells Count (SCC),https://opendata.leo-italy.eu/portale/dataset-info/633a9f1419448df464e38a79
+Fat,https://opendata.leo-italy.eu/portale/dataset-info/633ef4a12086aa1521fed0af
+Protein,https://opendata.leo-italy.eu/portale/dataset-info/633ef4a22086aa1521fed0b0
+Somatic Cells Count (SCC),https://opendata.leo-italy.eu/portale/dataset-info/633ef4a22086aa1521fed0b1
+Female Fertility Index,https://opendata.leo-italy.eu/portale/dataset-info/6363c6c8ab5f510c21cc1d34
+Genetic Index Prolificity,https://opendata.leo-italy.eu/portale/dataset-info/6363c6c8ab5f510c21cc1d35
+Calving Interval index,https://opendata.leo-italy.eu/portale/dataset-info/6363c6c8ab5f510c21cc1d36
+Dual purpose Index,https://opendata.leo-italy.eu/portale/dataset-info/6363c6c8ab5f510c21cc1d37
+Udder Health Index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b0
+Indirect Feed Efficiency Index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b1
+Heat Tolerance Index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b2
+Milkability index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b3
+Enteric Disease Resistance Index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b4
+Respiratory Diseases Resistance Index,https://opendata.leo-italy.eu/portale/dataset-info/6363e4a33bd3364856d973b5
+Locomotion Index,https://opendata.leo-italy.eu/portale/dataset-info/6363eb3be1407dc678fbf185
+Fitness Index,https://opendata.leo-italy.eu/portale/dataset-info/62b9dc8adf109a7948383347
+Mother-relatedweeding,https://opendata.leo-italy.eu/portale/dataset-info/63ee3da2e7bf4cdfa064ffd3
+Dual purpose Index,https://opendata.leo-italy.eu/portale/dataset-info/63ee3da3e7bf4cdfa064ffd7
+Milk performance recordings,https://opendata.leo-italy.eu/portale/dataset-info/64184e44d5f2b757ce4892e3
+Lactation,https://opendata.leo-italy.eu/portale/dataset-info/6418616825904da4bced9372
+Days Open Index,https://opendata.leo-italy.eu/portale/dataset-info/6418a3a0f8d714f801bb23b2
+Udder Health Index,https://opendata.leo-italy.eu/portale/dataset-info/64196aa43414178e20df4afa
+Productivity Index Functionality and Type (genomic),https://opendata.leo-italy.eu/portale/dataset-info/66df0c451723e0733fd23e1a
+Health Economic Index,https://opendata.leo-italy.eu/portale/dataset-info/66df0cca1723e0733fd23e1b
+Parmesan Cheese Sustainability and Cheesemaking Index,https://opendata.leo-italy.eu/portale/dataset-info/66df0d981723e0733fd23e1c
+Mammal Composite Index,https://opendata.leo-italy.eu/portale/dataset-info/66df0e1c1723e0733fd23e1d
+Mungibility Index,https://opendata.leo-italy.eu/portale/dataset-info/66df0e801723e0733fd23e1e
