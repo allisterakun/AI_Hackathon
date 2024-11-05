@@ -44,7 +44,7 @@ file_mapping = {
 }
 
 
-def clean_data(file_name: str) -> tuple[int, int, float]:
+def clean_data(file_name: str) -> tuple[int, int, int, float]:
     file_path = os.path.join(CLEANED_DATA_FOLDER, f"{file_name}.csv")
     df = pd.read_csv(file_path, index_col=None)
 
@@ -61,7 +61,9 @@ def clean_data(file_name: str) -> tuple[int, int, float]:
 
     unique_num_records = len(new_df)
 
-    return original_num_records, unique_num_records, unique_num_records / original_num_records
+    unique_ids = len(new_df.drop_duplicates(subset=["idAnimale"], keep='first'))
+
+    return original_num_records, unique_num_records, unique_ids, unique_ids / unique_num_records
 
 
 if __name__ == "__main__":
@@ -70,10 +72,11 @@ if __name__ == "__main__":
     os.makedirs(report_output_folder, exist_ok=True)
 
     files = list(file_mapping.keys())
-    report = pd.DataFrame(columns=["File", "Original_row_number", "Unique_row_number", "Proportion_unique_id"])
+    report = pd.DataFrame(columns=["File", "Original_row_number", "After_row_number", "Unique_ids",
+                                   "Proportion_unique_id"])
 
     for file in files:
-        original, unique, proportion = clean_data(file)
-        report.loc[len(report)] = [f"{file}.csv", original, unique, proportion]
+        original, after, unique, proportion = clean_data(file)
+        report.loc[len(report)] = [f"{file}.csv", original, after, unique, proportion]
 
     report.to_csv(os.path.join(report_output_folder, "unique_id_report.csv"))
