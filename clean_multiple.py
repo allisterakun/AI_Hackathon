@@ -38,7 +38,7 @@ file_mapping = {
     "Pregnancy Diagnosis": "DataDiagnosiGravidanza",
     "Calving": "DataParto",
     "Insemination": "DataInseminazione",
-    # "Animal registry": "?",   # ?
+    "Animal registry": "?",   # ?
     "Daily milking": "DataSessioneMungitura",
     "Average conductivity": "DataRilevamentoConducibilita"
 }
@@ -49,11 +49,13 @@ def clean_data(file_name: str) -> tuple[int, int, float]:
     df = pd.read_csv(file_path, index_col=None)
 
     original_num_records = len(df)
-    print(file_name, original_num_records, "idAnimale" in df.keys())
 
-    record_time_column_name = file_mapping[file_name]
-    df["identifying_column"] = [f"{_id}_{record_time}" for _id, record_time in zip(
-        df["idAnimale"], df[record_time_column_name])]
+    df["full_date"] = [f"{anno}-{mese:02d}-{giorno:02d}" for anno, mese, giorno in zip(
+        df["anno"], df["mese"], df["giorno"]
+    )]
+    df["identifying_column"] = [f"{_id}_{full_date}" for _id, full_date in zip(
+        df["idAnimale"], df["full_date"])]
+
     new_df = df.drop_duplicates(subset=["identifying_column"], keep=False)
     new_df.to_csv(os.path.join(OUTPUT_FOLDER, f"{file_name}.csv"))
 
