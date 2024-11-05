@@ -38,17 +38,13 @@ file_mapping = {
     "Pregnancy Diagnosis": "DataDiagnosiGravidanza",
     "Calving": "DataParto",
     "Insemination": "DataInseminazione",
-    # "Animal registry": "MotivoDiIngresso: EntryReason- missing data",   # ?
+    # "Animal registry": "?",   # ?
     "Daily milking": "DataSessioneMungitura",
     "Average conductivity": "DataRilevamentoConducibilita"
 }
 
 
 def clean_data(file_name: str) -> tuple[int, int, float]:
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-    report_output_folder =os.path.join(OUTPUT_FOLDER, "0report/")
-    os.makedirs(os.path.join(OUTPUT_FOLDER, "0report/"), exist_ok=True)
-
     file_path = os.path.join(CLEANED_DATA_FOLDER, f"{file_name}.csv")
     df = pd.read_csv(file_path, index_col=None)
 
@@ -67,6 +63,10 @@ def clean_data(file_name: str) -> tuple[int, int, float]:
 
 
 if __name__ == "__main__":
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+    report_output_folder = os.path.join(OUTPUT_FOLDER, "0report/")
+    os.makedirs(report_output_folder, exist_ok=True)
+
     files = list(file_mapping.keys())
     report = pd.DataFrame(columns=["File", "Original_row_number", "Unique_row_number", "Proportion_unique_id"])
 
@@ -74,4 +74,4 @@ if __name__ == "__main__":
         original, unique, proportion = clean_data(file)
         report.loc[len(report)] = [f"{file}.csv", original, unique, proportion]
 
-    report.to_csv(os.path.join(OUTPUT_FOLDER, "0report/unique_id_report.csv"))
+    report.to_csv(os.path.join(report_output_folder, "unique_id_report.csv"))
