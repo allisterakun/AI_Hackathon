@@ -4,3 +4,4 @@ selenium-wire
 pandas
 openpyxl
 tqdm
+numpy
