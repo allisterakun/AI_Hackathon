@@ -1,0 +1,8 @@
+File,Original_row_number,Unique_row_number,Proportion_unique_id
+Index Longevity.csv,8,0,0
+Index Persistence Lactation.csv,21,1,0.0476
+Dual purpose Index.csv,284,10,0.0352
+Culling.csv,150,82,0.5467
+Slaughter.csv,16206,2619,0.1616
+Unique Identification.csv,43590,2053,0.0471
+Birth.csv,43590,5112,0.1173

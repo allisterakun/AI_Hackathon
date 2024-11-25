@@ -1,0 +1,44 @@
+file_name,initial_count,na_count,cleaned_count,proportion_removed
+Urea.csv,387080,0,387080,0.0
+Rennet Coagulation time (R).csv,144408,0,144408,0.0
+Time to curd firmness (K20).csv,142865,0,142865,0.0
+Time to curd firmness (A30).csv,136531,0,136531,0.0
+Index of dairy attitude (IAC).csv,126294,0,126294,0.0
+Î²-hydroxybutyrate (BHBA).csv,342791,0,342791,0.0
+Acetone.csv,294351,0,294351,0.0
+Saturated Fatty acid (SFA).csv,320520,0,320520,0.0
+Total unsaturated Fatty Acid (UFA).csv,318712,0,318712,0.0
+Electrical conductivity.csv,136132,0,136132,0.0
+Newly synthesised fatty acids.csv,109451,0,109451,0.0
+Mixed Fatty Acids.csv,109455,0,109455,0.0
+Preformed Fatty Acids.csv,122397,0,122397,0.0
+PH.csv,254968,0,254968,0.0
+Stearic Acid (C18_0).csv,239407,0,239407,0.0
+Vaccenic acid (C18_1).csv,239407,0,239407,0.0
+Freezing Point.csv,249017,0,249017,0.0
+Casein.csv,388950,0,388950,0.0
+Lactose.csv,387720,0,387720,0.0
+Milk IBR analysis.csv,201,0,201,0.0
+DISCC analysis.csv,20902,0,20902,0.0
+Progesterone Milk Analysis.csv,4593,0,4593,0.0
+Citric Acid.csv,98,0,98,0.0
+Fat.csv,389344,0,389344,0.0
+Protein.csv,389344,0,389344,0.0
+Somatic Cells Count (SCC).csv,389343,0,389343,0.0
+Somatic Cells Index.csv,15729,0,15729,0.0
+Days Open Index.csv,8,8,0,1.0
+Index Longevity.csv,8,0,8,0.0
+Index Persistence Lactation.csv,21,0,21,0.0
+Calving Interval index.csv,98,0,98,0.0
+Dual purpose Index.csv,284,0,284,0.0
+Dry Period.csv,44209,0,44209,0.0
+Culling.csv,150,0,150,0.0
+Pregnancy Diagnosis.csv,18796,0,18796,0.0
+Calving.csv,58626,0,58626,0.0
+Insemination.csv,107118,0,107118,0.0
+Slaughter.csv,44499,28293,16206,0.6358
+Birth.csv,43206,0,43206,0.0
+Animal registry.csv,154961,0,154961,0.0
+Daily milking.csv,612,0,612,0.0
+Average conductivity.csv,565,0,565,0.0
+Unique Identification.csv,43657,67,43590,0.0015
