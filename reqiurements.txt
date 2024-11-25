@@ -5,3 +5,7 @@ pandas
 openpyxl
 tqdm
 numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
