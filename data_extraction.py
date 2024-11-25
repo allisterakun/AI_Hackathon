@@ -5,7 +5,7 @@ import pandas as pd
 from tqdm import tqdm
 
 INPUT_DIR = "cleaned_data/multiple_records/"
-OUTPUT_DIR = "extracted_data/"
+OUTPUT_DIR = "new_extracted_data/"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -24,18 +24,33 @@ def extract_data(file_name: str, interested_column: str) -> None:
     if interested_column in ["valoreMisura", "IcssIndiceCelluleSomatiche"]:
         df = df[["idAnimale", interested_column]]
 
-        result_df = pd.DataFrame(columns=["idAnimale", "mean", "std", "count"])
+        result_df = pd.DataFrame(columns=["idAnimale", "mean", "std", "count", "num_non_positive_records"])
 
         unique_animal_ids = list(set(df["idAnimale"]))
         for animal_id in unique_animal_ids:
             temp_df = df[df["idAnimale"] == animal_id]
+
+            num_non_positive_records = len(temp_df[temp_df[interested_column] <= 0])
+            temp_df = temp_df[temp_df[interested_column] > 0]
+
             data_entries = temp_df[interested_column]
+            mean = np.mean(data_entries)
+            std = np.std(data_entries)
+
+            temp_df = temp_df[(temp_df[interested_column] > mean - 3 * std) &
+                              (temp_df[interested_column] < mean + 3 * std)]
+
+            data_entries = temp_df[interested_column]
+            mean = np.mean(data_entries)
+            std = np.std(data_entries)
+            count = len(data_entries)
 
             result_df.loc[len(result_df)] = {
                 "idAnimale": animal_id,
-                "mean": np.mean(data_entries),
-                "std": np.std(data_entries),
-                "count": len(data_entries)
+                "mean": mean,
+                "std": std,
+                "count": count,
+                "num_non_positive_records": num_non_positive_records
             }
         result_df.to_csv(os.path.join(OUTPUT_DIR, file_name), index=False)
         # raise KeyboardInterrupt
